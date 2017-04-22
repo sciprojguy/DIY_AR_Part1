@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A157AF91EA3C84A008D86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A157AF71EA3C84A008D86A7 /* AVFoundation.framework */; };
+		9A157AFA1EA3C84A008D86A7 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A157AF81EA3C84A008D86A7 /* AVKit.framework */; };
 		9A9549B51E9F798D00E0C5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9549B41E9F798D00E0C5D1 /* AppDelegate.swift */; };
 		9A9549B71E9F798D00E0C5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9549B61E9F798D00E0C5D1 /* ViewController.swift */; };
 		9A9549BA1E9F798D00E0C5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9549B81E9F798D00E0C5D1 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		9A9549BF1E9F798E00E0C5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9549BD1E9F798E00E0C5D1 /* LaunchScreen.storyboard */; };
 		9A9549CA1E9F798E00E0C5D1 /* ARdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9549C91E9F798E00E0C5D1 /* ARdemoTests.swift */; };
 		9A9549D51E9F798E00E0C5D1 /* ARdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9549D41E9F798E00E0C5D1 /* ARdemoUITests.swift */; };
+		9A9549E41E9F79B200E0C5D1 /* ARtools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9549E31E9F79B200E0C5D1 /* ARtools.swift */; };
+		9A9549E81E9F7C2C00E0C5D1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9549E61E9F7C2C00E0C5D1 /* CoreLocation.framework */; };
+		9A9549E91E9F7C2C00E0C5D1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9549E71E9F7C2C00E0C5D1 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A157AF71EA3C84A008D86A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A157AF81EA3C84A008D86A7 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		9A9549B11E9F798D00E0C5D1 /* ARdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9549B41E9F798D00E0C5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A9549B61E9F798D00E0C5D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		9A9549D01E9F798E00E0C5D1 /* ARdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9549D41E9F798E00E0C5D1 /* ARdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARdemoUITests.swift; sourceTree = "<group>"; };
 		9A9549D61E9F798E00E0C5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9549E31E9F79B200E0C5D1 /* ARtools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARtools.swift; sourceTree = "<group>"; };
+		9A9549E61E9F7C2C00E0C5D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A9549E71E9F7C2C00E0C5D1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A157AF91EA3C84A008D86A7 /* AVFoundation.framework in Frameworks */,
+				9A157AFA1EA3C84A008D86A7 /* AVKit.framework in Frameworks */,
+				9A9549E81E9F7C2C00E0C5D1 /* CoreLocation.framework in Frameworks */,
+				9A9549E91E9F7C2C00E0C5D1 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				9A9549C81E9F798E00E0C5D1 /* ARdemoTests */,
 				9A9549D31E9F798E00E0C5D1 /* ARdemoUITests */,
 				9A9549B21E9F798D00E0C5D1 /* Products */,
+				9A9549E51E9F7C2C00E0C5D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +112,7 @@
 		9A9549B31E9F798D00E0C5D1 /* ARdemo */ = {
 			isa = PBXGroup;
 			children = (
+				9A9549E21E9F799600E0C5D1 /* ARtools */,
 				9A9549B41E9F798D00E0C5D1 /* AppDelegate.swift */,
 				9A9549B61E9F798D00E0C5D1 /* ViewController.swift */,
 				9A9549B81E9F798D00E0C5D1 /* Main.storyboard */,
@@ -123,6 +139,25 @@
 				9A9549D61E9F798E00E0C5D1 /* Info.plist */,
 			);
 			path = ARdemoUITests;
+			sourceTree = "<group>";
+		};
+		9A9549E21E9F799600E0C5D1 /* ARtools */ = {
+			isa = PBXGroup;
+			children = (
+				9A9549E31E9F79B200E0C5D1 /* ARtools.swift */,
+			);
+			name = ARtools;
+			sourceTree = "<group>";
+		};
+		9A9549E51E9F7C2C00E0C5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A157AF71EA3C84A008D86A7 /* AVFoundation.framework */,
+				9A157AF81EA3C84A008D86A7 /* AVKit.framework */,
+				9A9549E61E9F7C2C00E0C5D1 /* CoreLocation.framework */,
+				9A9549E71E9F7C2C00E0C5D1 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9549B71E9F798D00E0C5D1 /* ViewController.swift in Sources */,
+				9A9549E41E9F79B200E0C5D1 /* ARtools.swift in Sources */,
 				9A9549B51E9F798D00E0C5D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 79GK225UV2;
 				INFOPLIST_FILE = ARdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.ARdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 79GK225UV2;
 				INFOPLIST_FILE = ARdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.ARdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +554,7 @@
 				9A9549DB1E9F798E00E0C5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9549DC1E9F798E00E0C5D1 /* Build configuration list for PBXNativeTarget "ARdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +563,7 @@
 				9A9549DE1E9F798E00E0C5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9549DF1E9F798E00E0C5D1 /* Build configuration list for PBXNativeTarget "ARdemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +572,7 @@
 				9A9549E11E9F798E00E0C5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
